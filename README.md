@@ -1,5 +1,11 @@
 #Docker setup for Drupal 8#
 
+## Prerequisites ##
+
+- Composer
+
+    `curl -sS https://getcomposer.org/installer | php && sudo mv composer.phar /usr/local/bin/composer`
+
 Your Drupal 8 project must reside in the the `app` folder.
 
 ## Fresh installation ##
