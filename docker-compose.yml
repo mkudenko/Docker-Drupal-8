@@ -4,6 +4,8 @@ web:
         - "80:80"
     volumes:
         - ./app:/var/www/html
+    links:
+     - db:db_container
 db:
     image: mysql
     ports:
